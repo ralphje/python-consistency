@@ -29,7 +29,7 @@ you can import. For instance::
 
     from consistency import logging
 
-    logging.get_logger(__name__)
+    logging.logger(__name__)
 
 Ultimately, I feel that Python itself should provide these properly named
 alternatives. The original variant should be aliased with them (or the other
@@ -44,9 +44,17 @@ consistent, Pythonic and unsurprising.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: General
 
    conventions
+
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Modules
+   :glob:
+
+   modules/*
 
 
 Indices and tables
